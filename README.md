@@ -1,6 +1,6 @@
-> 빡빡한 공기업의 사내 보안으로 화면 보호기를 비활성화 할 수 없어 만드는 프로그램
+> 빡빡한 공기업의 사내 보안으로 화면 보호기를 비활성화 할 수 없어 만드는 프로그램 \\
 출처 - https://csnhjt.tistory.com/77 
-그냥 평소에도 항상 켜놓으면서 작업할 수 있도록 "test" 키보드 입력을 삭제하고 싶어서 수정하려고 만들게 되었습니다.
+평소에도 항상 켜놓으면서 작업할 수 있도록 키보드 입력을 삭제하려 했으나, 마우스 움직임으로는 화면보호기가 켜져버려서 마우스 움직임을 빼고 키보드 입력만 넣어서 스크립트 수정
 
 ### 가상환경 생성 및 활성화
 ```bash
@@ -14,25 +14,25 @@ $
 **터미널 별 활성화 방법** 
 
 - Git Bash
-    
+  
     ```bash
     $ source [가상환경이름]\Scripts\activate
     ```
     
 - CMD
-    
+  
     ```bash
     $ source [가상환경이름]\Scripts\activate.bat
     ```
     
 - PowerShell
-    
+  
     ```bash
     $ source [가상환경이름]\Scripts\Activate.ps1
     ```
     
 - macOS
-    
+  
     ```bash
     $ source [가상환경이름]/bin/activate
     ```
